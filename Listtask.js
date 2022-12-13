@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {MdDelete} from 'react-icons/md'
-function Listtask({data,index,removeTask,editItem}) {
+function Listtask({data,index,removeTask}) {
   return (
     <div>
         <div className='listtask'>
