@@ -16,10 +16,10 @@ function ToDo() {
          const newtask=[...task,{title}]
          setTask(newtask)
     }
-    const removeTask=()=>
+    const removeTask=(index)=>
     {
         const newtask=[...task]
-        newtask.splice(indexedDB,1)
+        newtask.splice(index,1)
         setTask(newtask)
     }
 
